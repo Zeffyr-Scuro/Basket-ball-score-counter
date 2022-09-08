@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+body {
+    margin: 0;
+    background: #1B244A;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Days One', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score{
+    color: #F94F6D;
+    font-size: 90px;
+    line-height: 127px; 
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.btn{
+    background: #1B244A;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-family: 'Days One', sans-serif;
+    
+}
+
+#btn-restart{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;    
+}
+
+h3{
+    font-size: 50px;
+    margin: 40px 0 0 0;
+}
